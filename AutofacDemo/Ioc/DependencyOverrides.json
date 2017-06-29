@@ -1,0 +1,14 @@
+{
+  "defaultAssembly": "AutofacDemo",
+  "components": [
+    {
+      "type": "AutofacDemo.DummyComponents.SomeTypeRegisteredInConfig, AutofacDemo",
+      "services": [
+        {
+          "type": "AutofacDemo.DummyComponents.SomeTypeRegisteredInConfig"
+        }
+      ],
+      "injectProperties": true
+    }
+  ]
+}
